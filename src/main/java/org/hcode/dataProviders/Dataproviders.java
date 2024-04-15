@@ -33,7 +33,7 @@ public class Dataproviders {
 
         for (int i = 0; i < rowCount; i++) {
             Row row = sheet.getRow(i + 1);
-            data[i][0] = row.getCell(0).getStringCellValue(); 
+            data[i][0] = System.getProperty("user.dir")+row.getCell(0).getStringCellValue(); 
         }
                 workbook.close();
         inputStream.close();

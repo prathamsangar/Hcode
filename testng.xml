@@ -8,13 +8,12 @@
 
   <test thread-count="7" name="Test" parallel="methods">
     <classes>
-     
+    
       <class name="org.hcode.tests.UploadTestCases"/>
        <class name="org.hcode.tests.CarDetailsTests"/>
        <class name="org.hcode.tests.CommonWebElementsTests"/>
        <class name="org.hcode.tests.WebTablesTests"/>
        
-      
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

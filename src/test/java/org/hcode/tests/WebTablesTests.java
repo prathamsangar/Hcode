@@ -11,6 +11,7 @@ import org.testng.annotations.Test;
 
 public class WebTablesTests {
 
+	
 	@BeforeMethod
 	public void setUp() throws IOException {
 		Driver.initDriver("webTables");

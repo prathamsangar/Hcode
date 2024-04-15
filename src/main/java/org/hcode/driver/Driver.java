@@ -1,7 +1,6 @@
 package org.hcode.driver;
 
 import java.io.IOException;
-
 import org.hcode.constants.FrameworkConstants;
 import org.hcode.utils.ReadPropertyFile;
 import org.openqa.selenium.WebDriver;
@@ -10,6 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class Driver {
 	
 	private static WebDriver driver;
+	
 	
 	public static void initDriver(String url) throws IOException {
 		

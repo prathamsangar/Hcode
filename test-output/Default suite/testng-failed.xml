@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.hcode.tests.CommonWebElementsTests">
+      <class name="org.hcode.tests.WebTablesTests">
         <methods>
-          <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="commonTest"/>
+          <include name="setUp"/>
+          <include name="findName"/>
         </methods>
-      </class> <!-- org.hcode.tests.CommonWebElementsTests -->
+      </class> <!-- org.hcode.tests.WebTablesTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
