@@ -2,7 +2,6 @@ package org.hcode.report_listeners;
 
 import java.io.File;
 import java.io.IOException;
-import java.lang.reflect.Method;
 
 import org.apache.commons.io.FileUtils;
 import org.hcode.driver.DriverManager;
@@ -12,10 +11,8 @@ import org.testng.ISuite;
 import org.testng.ISuiteListener;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
-import org.testng.annotations.ITestAnnotation;
-import org.testng.internal.annotations.IAnnotationTransformer;
 
-public class Listeners implements ITestListener, ISuiteListener, IAnnotationTransformer {
+public class Listeners implements ITestListener, ISuiteListener {
 	
 	@Override
 	public void onStart(ISuite suite) {
@@ -38,11 +35,6 @@ public class Listeners implements ITestListener, ISuiteListener, IAnnotationTran
 			
 	    }
 	 
-	 public void transform(
-			 ITestAnnotation annotation, Method testMethod)
-	 {
-		 annotation.setRetryAnalyzer(RetryAnalyzer.class);
-	 }
 	 
 	 @Override
 	    public void onTestSkipped(ITestResult result) {
