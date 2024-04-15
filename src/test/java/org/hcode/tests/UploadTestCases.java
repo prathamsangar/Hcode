@@ -25,14 +25,14 @@ public void tearDown() {
 }
 
 
-@Test
+@Test(priority = 1)
 public void clickUploadExists() throws IOException {
 	
 	new Dashboard().clickUploadScreen();
 }
 
 	
-@Test(dataProvider = "filePaths", dataProviderClass = Dataproviders.class, dependsOnMethods = "clickUploadExists")
+@Test(priority = 2, dataProvider = "filePaths", dataProviderClass = Dataproviders.class, dependsOnMethods = "clickUploadExists", groups = { "sanity" })
 public void testFileUpload(String filePath) throws IOException {  
 
    new Dashboard().clickUploadScreen().chooseFile().sendKeys(filePath);
