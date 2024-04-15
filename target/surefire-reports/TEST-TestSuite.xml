@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="65.49" tests="6" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="62.715" tests="6" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="15"/>
     <property name="webdriver.chrome.driver" value="D:\SeleniumHcodeFramework/src/test/resources/Executables/chromedriver.exe"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="sun.awt.enableExtraMouseButtons" value="true"/>
-    <property name="java.class.path" value="D:\SeleniumHcodeFramework\target\test-classes;D:\SeleniumHcodeFramework\target\classes;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-java\4.18.1\selenium-java-4.18.1.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-api\4.18.1\selenium-api-4.18.1.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.18.1\selenium-chrome-driver-4.18.1.jar;C:\Users\dev\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.18.1\selenium-chromium-driver-4.18.1.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-json\4.18.1\selenium-json-4.18.1.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.18.1\selenium-manager-4.18.1.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.18.1\selenium-devtools-v120-4.18.1.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v121\4.18.1\selenium-devtools-v121-4.18.1.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v122\4.18.1\selenium-devtools-v122-4.18.1.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.18.1\selenium-devtools-v85-4.18.1.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.18.1\selenium-edge-driver-4.18.1.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.18.1\selenium-firefox-driver-4.18.1.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-http\4.18.1\selenium-http-4.18.1.jar;C:\Users\dev\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.18.1\selenium-ie-driver-4.18.1.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.18.1\selenium-remote-driver-4.18.1.jar;C:\Users\dev\.m2\repository\com\google\guava\guava\33.0.0-jre\guava-33.0.0-jre.jar;C:\Users\dev\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\dev\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\dev\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\dev\.m2\repository\org\checkerframework\checker-qual\3.41.0\checker-qual-3.41.0.jar;C:\Users\dev\.m2\repository\com\google\errorprone\error_prone_annotations\2.23.0\error_prone_annotations-2.23.0.jar;C:\Users\dev\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\dev\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.23.1-alpha\opentelemetry-semconv-1.23.1-alpha.jar;C:\Users\dev\.m2\repository\io\opentelemetry\opentelemetry-api\1.35.0\opentelemetry-api-1.35.0.jar;C:\Users\dev\.m2\repository\io\opentelemetry\opentelemetry-context\1.35.0\opentelemetry-context-1.35.0.jar;C:\Users\dev\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.35.0\opentelemetry-exporter-logging-1.35.0.jar;C:\Users\dev\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.35.0\opentelemetry-sdk-common-1.35.0.jar;C:\Users\dev\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.35.0\opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.jar;C:\Users\dev\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.35.0\opentelemetry-sdk-extension-autoconfigure-1.35.0.jar;C:\Users\dev\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.35.0-alpha\opentelemetry-api-events-1.35.0-alpha.jar;C:\Users\dev\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.35.0\opentelemetry-sdk-trace-1.35.0.jar;C:\Users\dev\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.35.0-alpha\opentelemetry-extension-incubator-1.35.0-alpha.jar;C:\Users\dev\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.35.0\opentelemetry-sdk-1.35.0.jar;C:\Users\dev\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.35.0\opentelemetry-sdk-metrics-1.35.0.jar;C:\Users\dev\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.35.0\opentelemetry-sdk-logs-1.35.0.jar;C:\Users\dev\.m2\repository\net\bytebuddy\byte-buddy\1.14.12\byte-buddy-1.14.12.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-os\4.18.1\selenium-os-4.18.1.jar;C:\Users\dev\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.18.1\selenium-safari-driver-4.18.1.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-support\4.18.1\selenium-support-4.18.1.jar;C:\Users\dev\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\dev\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\dev\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\dev\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\dev\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\dev\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\dev\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\dev\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\dev\.m2\repository\commons-io\commons-io\2.15.0\commons-io-2.15.0.jar;C:\Users\dev\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\dev\.m2\repository\org\apache\logging\log4j\log4j-api\2.21.1\log4j-api-2.21.1.jar;C:\Users\dev\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\dev\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\dev\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\dev\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\dev\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\dev\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\dev\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\dev\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\dev\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\dev\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\dev\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;"/>
+    <property name="java.class.path" value="D:\SeleniumHcodeFramework\target\test-classes;D:\SeleniumHcodeFramework\target\classes;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-java\4.18.1\selenium-java-4.18.1.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-api\4.18.1\selenium-api-4.18.1.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.18.1\selenium-chrome-driver-4.18.1.jar;C:\Users\dev\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.18.1\selenium-chromium-driver-4.18.1.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-json\4.18.1\selenium-json-4.18.1.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.18.1\selenium-manager-4.18.1.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.18.1\selenium-devtools-v120-4.18.1.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v121\4.18.1\selenium-devtools-v121-4.18.1.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v122\4.18.1\selenium-devtools-v122-4.18.1.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.18.1\selenium-devtools-v85-4.18.1.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.18.1\selenium-edge-driver-4.18.1.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.18.1\selenium-firefox-driver-4.18.1.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-http\4.18.1\selenium-http-4.18.1.jar;C:\Users\dev\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.18.1\selenium-ie-driver-4.18.1.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.18.1\selenium-remote-driver-4.18.1.jar;C:\Users\dev\.m2\repository\com\google\guava\guava\33.0.0-jre\guava-33.0.0-jre.jar;C:\Users\dev\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\dev\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\dev\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\dev\.m2\repository\org\checkerframework\checker-qual\3.41.0\checker-qual-3.41.0.jar;C:\Users\dev\.m2\repository\com\google\errorprone\error_prone_annotations\2.23.0\error_prone_annotations-2.23.0.jar;C:\Users\dev\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\dev\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.23.1-alpha\opentelemetry-semconv-1.23.1-alpha.jar;C:\Users\dev\.m2\repository\io\opentelemetry\opentelemetry-api\1.35.0\opentelemetry-api-1.35.0.jar;C:\Users\dev\.m2\repository\io\opentelemetry\opentelemetry-context\1.35.0\opentelemetry-context-1.35.0.jar;C:\Users\dev\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.35.0\opentelemetry-exporter-logging-1.35.0.jar;C:\Users\dev\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.35.0\opentelemetry-sdk-common-1.35.0.jar;C:\Users\dev\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.35.0\opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.jar;C:\Users\dev\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.35.0\opentelemetry-sdk-extension-autoconfigure-1.35.0.jar;C:\Users\dev\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.35.0-alpha\opentelemetry-api-events-1.35.0-alpha.jar;C:\Users\dev\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.35.0\opentelemetry-sdk-trace-1.35.0.jar;C:\Users\dev\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.35.0-alpha\opentelemetry-extension-incubator-1.35.0-alpha.jar;C:\Users\dev\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.35.0\opentelemetry-sdk-1.35.0.jar;C:\Users\dev\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.35.0\opentelemetry-sdk-metrics-1.35.0.jar;C:\Users\dev\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.35.0\opentelemetry-sdk-logs-1.35.0.jar;C:\Users\dev\.m2\repository\net\bytebuddy\byte-buddy\1.14.12\byte-buddy-1.14.12.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-os\4.18.1\selenium-os-4.18.1.jar;C:\Users\dev\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.18.1\selenium-safari-driver-4.18.1.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-support\4.18.1\selenium-support-4.18.1.jar;C:\Users\dev\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\dev\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\dev\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\dev\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\dev\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\dev\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\dev\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\dev\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\dev\.m2\repository\commons-io\commons-io\2.15.0\commons-io-2.15.0.jar;C:\Users\dev\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\dev\.m2\repository\org\apache\logging\log4j\log4j-api\2.21.1\log4j-api-2.21.1.jar;C:\Users\dev\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\dev\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\dev\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\dev\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\dev\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\dev\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\dev\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\dev\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\dev\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\dev\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\dev\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -17,9 +17,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Users\dev\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\dev\AppData\Local\Temp\surefire662430127269218646\surefirebooter-20240415001714069_3.jar C:\Users\dev\AppData\Local\Temp\surefire662430127269218646 2024-04-15T00-17-13_644-jvmRun1 surefire-20240415001714069_1tmp surefire_0-20240415001714069_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\dev\AppData\Local\Temp\surefire13324878551044144423\surefirebooter-20240415121840571_3.jar C:\Users\dev\AppData\Local\Temp\surefire13324878551044144423 2024-04-15T12-18-40_040-jvmRun1 surefire-20240415121840571_1tmp surefire_0-20240415121840571_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="D:\SeleniumHcodeFramework\target\test-classes;D:\SeleniumHcodeFramework\target\classes;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-java\4.18.1\selenium-java-4.18.1.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-api\4.18.1\selenium-api-4.18.1.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.18.1\selenium-chrome-driver-4.18.1.jar;C:\Users\dev\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.18.1\selenium-chromium-driver-4.18.1.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-json\4.18.1\selenium-json-4.18.1.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.18.1\selenium-manager-4.18.1.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.18.1\selenium-devtools-v120-4.18.1.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v121\4.18.1\selenium-devtools-v121-4.18.1.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v122\4.18.1\selenium-devtools-v122-4.18.1.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.18.1\selenium-devtools-v85-4.18.1.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.18.1\selenium-edge-driver-4.18.1.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.18.1\selenium-firefox-driver-4.18.1.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-http\4.18.1\selenium-http-4.18.1.jar;C:\Users\dev\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.18.1\selenium-ie-driver-4.18.1.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.18.1\selenium-remote-driver-4.18.1.jar;C:\Users\dev\.m2\repository\com\google\guava\guava\33.0.0-jre\guava-33.0.0-jre.jar;C:\Users\dev\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\dev\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\dev\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\dev\.m2\repository\org\checkerframework\checker-qual\3.41.0\checker-qual-3.41.0.jar;C:\Users\dev\.m2\repository\com\google\errorprone\error_prone_annotations\2.23.0\error_prone_annotations-2.23.0.jar;C:\Users\dev\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\dev\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.23.1-alpha\opentelemetry-semconv-1.23.1-alpha.jar;C:\Users\dev\.m2\repository\io\opentelemetry\opentelemetry-api\1.35.0\opentelemetry-api-1.35.0.jar;C:\Users\dev\.m2\repository\io\opentelemetry\opentelemetry-context\1.35.0\opentelemetry-context-1.35.0.jar;C:\Users\dev\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.35.0\opentelemetry-exporter-logging-1.35.0.jar;C:\Users\dev\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.35.0\opentelemetry-sdk-common-1.35.0.jar;C:\Users\dev\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.35.0\opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.jar;C:\Users\dev\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.35.0\opentelemetry-sdk-extension-autoconfigure-1.35.0.jar;C:\Users\dev\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.35.0-alpha\opentelemetry-api-events-1.35.0-alpha.jar;C:\Users\dev\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.35.0\opentelemetry-sdk-trace-1.35.0.jar;C:\Users\dev\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.35.0-alpha\opentelemetry-extension-incubator-1.35.0-alpha.jar;C:\Users\dev\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.35.0\opentelemetry-sdk-1.35.0.jar;C:\Users\dev\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.35.0\opentelemetry-sdk-metrics-1.35.0.jar;C:\Users\dev\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.35.0\opentelemetry-sdk-logs-1.35.0.jar;C:\Users\dev\.m2\repository\net\bytebuddy\byte-buddy\1.14.12\byte-buddy-1.14.12.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-os\4.18.1\selenium-os-4.18.1.jar;C:\Users\dev\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.18.1\selenium-safari-driver-4.18.1.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-support\4.18.1\selenium-support-4.18.1.jar;C:\Users\dev\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\dev\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\dev\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\dev\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\dev\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\dev\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\dev\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\dev\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\dev\.m2\repository\commons-io\commons-io\2.15.0\commons-io-2.15.0.jar;C:\Users\dev\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\dev\.m2\repository\org\apache\logging\log4j\log4j-api\2.21.1\log4j-api-2.21.1.jar;C:\Users\dev\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\dev\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\dev\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\dev\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\dev\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\dev\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\dev\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\dev\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\dev\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\dev\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\dev\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;"/>
+    <property name="surefire.test.class.path" value="D:\SeleniumHcodeFramework\target\test-classes;D:\SeleniumHcodeFramework\target\classes;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-java\4.18.1\selenium-java-4.18.1.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-api\4.18.1\selenium-api-4.18.1.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.18.1\selenium-chrome-driver-4.18.1.jar;C:\Users\dev\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.18.1\selenium-chromium-driver-4.18.1.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-json\4.18.1\selenium-json-4.18.1.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.18.1\selenium-manager-4.18.1.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.18.1\selenium-devtools-v120-4.18.1.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v121\4.18.1\selenium-devtools-v121-4.18.1.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v122\4.18.1\selenium-devtools-v122-4.18.1.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.18.1\selenium-devtools-v85-4.18.1.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.18.1\selenium-edge-driver-4.18.1.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.18.1\selenium-firefox-driver-4.18.1.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-http\4.18.1\selenium-http-4.18.1.jar;C:\Users\dev\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.18.1\selenium-ie-driver-4.18.1.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.18.1\selenium-remote-driver-4.18.1.jar;C:\Users\dev\.m2\repository\com\google\guava\guava\33.0.0-jre\guava-33.0.0-jre.jar;C:\Users\dev\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\dev\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\dev\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\dev\.m2\repository\org\checkerframework\checker-qual\3.41.0\checker-qual-3.41.0.jar;C:\Users\dev\.m2\repository\com\google\errorprone\error_prone_annotations\2.23.0\error_prone_annotations-2.23.0.jar;C:\Users\dev\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\dev\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.23.1-alpha\opentelemetry-semconv-1.23.1-alpha.jar;C:\Users\dev\.m2\repository\io\opentelemetry\opentelemetry-api\1.35.0\opentelemetry-api-1.35.0.jar;C:\Users\dev\.m2\repository\io\opentelemetry\opentelemetry-context\1.35.0\opentelemetry-context-1.35.0.jar;C:\Users\dev\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.35.0\opentelemetry-exporter-logging-1.35.0.jar;C:\Users\dev\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.35.0\opentelemetry-sdk-common-1.35.0.jar;C:\Users\dev\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.35.0\opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.jar;C:\Users\dev\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.35.0\opentelemetry-sdk-extension-autoconfigure-1.35.0.jar;C:\Users\dev\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.35.0-alpha\opentelemetry-api-events-1.35.0-alpha.jar;C:\Users\dev\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.35.0\opentelemetry-sdk-trace-1.35.0.jar;C:\Users\dev\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.35.0-alpha\opentelemetry-extension-incubator-1.35.0-alpha.jar;C:\Users\dev\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.35.0\opentelemetry-sdk-1.35.0.jar;C:\Users\dev\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.35.0\opentelemetry-sdk-metrics-1.35.0.jar;C:\Users\dev\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.35.0\opentelemetry-sdk-logs-1.35.0.jar;C:\Users\dev\.m2\repository\net\bytebuddy\byte-buddy\1.14.12\byte-buddy-1.14.12.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-os\4.18.1\selenium-os-4.18.1.jar;C:\Users\dev\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.18.1\selenium-safari-driver-4.18.1.jar;C:\Users\dev\.m2\repository\org\seleniumhq\selenium\selenium-support\4.18.1\selenium-support-4.18.1.jar;C:\Users\dev\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\dev\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\dev\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\dev\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\dev\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\dev\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\dev\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\dev\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\dev\.m2\repository\commons-io\commons-io\2.15.0\commons-io-2.15.0.jar;C:\Users\dev\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\dev\.m2\repository\org\apache\logging\log4j\log4j-api\2.21.1\log4j-api-2.21.1.jar;C:\Users\dev\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\dev\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\dev\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\dev\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\dev\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\dev\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\dev\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\dev\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\dev\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\dev\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\dev\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\dev"/>
     <property name="user.language" value="en"/>
@@ -32,7 +32,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\dev\AppData\Local\Temp\surefire662430127269218646\surefirebooter-20240415001714069_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\dev\AppData\Local\Temp\surefire13324878551044144423\surefirebooter-20240415121840571_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="15.0.2+7-27"/>
@@ -57,28 +57,41 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="59.0"/>
   </properties>
-  <testcase name="clickUploadExists" classname="org.hcode.tests.UploadTestCases" time="3.268">
+  <testcase name="clickUploadExists" classname="org.hcode.tests.UploadTestCases" time="3.262">
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Apr 15, 2024 12:17:23 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Apr 15, 2024 12:18:48 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 123, returning the closest version; found: 122; Please update to a Selenium version that supports CDP version 123
-Apr 15, 2024 12:17:24 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Apr 15, 2024 12:18:48 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 123, returning the closest version; found: 122; Please update to a Selenium version that supports CDP version 123
-Apr 15, 2024 12:17:24 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Apr 15, 2024 12:18:48 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 123, returning the closest version; found: 122; Please update to a Selenium version that supports CDP version 123
-Apr 15, 2024 12:17:24 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Apr 15, 2024 12:18:48 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 123, returning the closest version; found: 122; Please update to a Selenium version that supports CDP version 123
-Apr 15, 2024 12:17:24 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Apr 15, 2024 12:18:50 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 123, returning the closest version; found: 122; Please update to a Selenium version that supports CDP version 123
 ]]></system-err>
   </testcase>
-  <testcase name="testFileUpload[C:\Users\dev\Desktop\pratham\cbimage (4).png](1)" classname="org.hcode.tests.UploadTestCases" time="2.632"/>
-  <testcase name="clickHatchBack" classname="org.hcode.tests.CommonWebElementsTests" time="0.971">
+  <testcase name="testFileUpload[C:\Users\dev\Desktop\pratham\cbimage (4).png](1)" classname="org.hcode.tests.UploadTestCases" time="5.57"/>
+  <testcase name="clickHatchBack" classname="org.hcode.tests.CommonWebElementsTests" time="0.47"/>
+  <testcase name="commonTest" classname="org.hcode.tests.CommonWebElementsTests" time="0.488">
+    <system-out><![CDATA[Car 1 data:
+Hyundai i10
+Maruti Baleno
+Honda City
+Maruti Wagon R
+Hyundai i20
+Maruti Dzire
+Honda Amaze
+Maruti Swift
+Maruti Ciaz
+Renault Kwid
+]]></system-out>
     <system-err><![CDATA[ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
 ]]></system-err>
   </testcase>
-  <testcase name="commonTest" classname="org.hcode.tests.CommonWebElementsTests" time="0.679">
+  <testcase name="findName" classname="org.hcode.tests.WebTablesTests" time="0.983">
     <system-out><![CDATA[Shri Hitesh Kumar S. Makwana
 I.A.S
 Shri S.K.Sinha
@@ -112,33 +125,19 @@ Shri Nitin Joshi
 Shri S S Chauhan, IRSME
 Shri Pardeep Singh
 Shri Upkar Pathak
-Hyundai i10
-Maruti Baleno
-Honda City
-Maruti Wagon R
-Hyundai i20
-Maruti Dzire
-Honda Amaze
-Maruti Swift
-Maruti Ciaz
-Renault Kwid
-]]></system-out>
-  </testcase>
-  <testcase name="findName" classname="org.hcode.tests.WebTablesTests" time="0.722">
-    <system-out><![CDATA[Shri Misal Roshan Srivastava
+Shri Misal Roshan Srivastava
 Shri Sidhant Sen
 Shri Arjun SIngh
 ]]></system-out>
   </testcase>
-  <testcase name="printCarDataTest" classname="org.hcode.tests.CarDetailsTests" time="2.087">
-    <system-out><![CDATA[Car 1 data:
-UploadFiles
+  <testcase name="printCarDataTest" classname="org.hcode.tests.CarDetailsTests" time="4.739">
+    <system-out><![CDATA[UploadFiles
 Car Name: 2019 Maruti Swift LXI
 Car Kilometers: 31,466 KM
 Car Transmission: MANUAL
 Car Extra Highlight: REGULARLY SERVICED
-Car Rate: ₹5.18 Lakh
-Car EMI Details: EMIs from ₹10,127/month
+Car Rate: ₹5.14 Lakh
+Car EMI Details: EMIs from ₹10,044/month
 ----------------------------------------------
 Car 2 data:
 Car Name: 2017 Maruti Wagon R 1.0 LXI
@@ -149,12 +148,12 @@ Car Rate: ₹3.30 Lakh
 Car EMI Details: EMIs from ₹6,452/month
 ----------------------------------------------
 Car 3 data:
-Car Name: 2022 Maruti Vitara Brezza VXI AT SHVS
-Car Kilometers: 1,402 KM
-Car Transmission: AUTOMATIC
-Car Extra Highlight: STANDARD SAFETY FEATURES
-Car Rate: ₹10.64 Lakh
-Car EMI Details: EMIs from ₹20,252/month
+Car Name: 2022 Maruti Vitara Brezza ZXI PLUS
+Car Kilometers: 20,059 KM
+Car Transmission: MANUAL
+Car Extra Highlight: TOP MODEL
+Car Rate: ₹8.70 Lakh
+Car EMI Details: EMIs from ₹16,560/month
 ----------------------------------------------
 Car 4 data:
 Car Name: 2018 Maruti Alto 800 LXI
@@ -165,14 +164,6 @@ Car Rate: ₹2.78 Lakh
 Car EMI Details: EMIs from ₹5,435/month
 ----------------------------------------------
 Car 5 data:
-Car Name: 2019 Maruti New Wagon-R LXI 1.0
-Car Kilometers: 13,720 KM
-Car Transmission: MANUAL
-Car Extra Highlight: REGULARLY SERVICED
-Car Rate: ₹4.75 Lakh
-Car EMI Details: EMIs from ₹9,286/month
-----------------------------------------------
-Car 6 data:
 Car Name: 2019 Maruti Swift ZXI PLUS AMT
 Car Kilometers: 36,023 KM
 Car Transmission: AUTOMATIC
@@ -180,23 +171,15 @@ Car Extra Highlight: TOP MODEL
 Car Rate: ₹6.31 Lakh
 Car EMI Details: EMIs from ₹12,336/month
 ----------------------------------------------
+Car 6 data:
+Car Name: 2018 Maruti Celerio VXI
+Car Kilometers: 52,238 KM
+Car Transmission: MANUAL
+Car Extra Highlight: 100% TYRE LIFE REMAINING
+Car Rate: ₹3.98 Lakh
+Car EMI Details: EMIs from ₹7,781/month
+----------------------------------------------
 Car 7 data:
-Car Name: 2022 Maruti Celerio VXI CNG
-Car Kilometers: 6,790 KM
-Car Transmission: MANUAL
-Car Extra Highlight: REGULARLY SERVICED
-Car Rate: ₹6.20 Lakh
-Car EMI Details: EMIs from ₹12,121/month
-----------------------------------------------
-Car 8 data:
-Car Name: 2022 Maruti Baleno ZETA PETROL 1.2
-Car Kilometers: 15,515 KM
-Car Transmission: MANUAL
-Car Extra Highlight: ALLOY WHEELS
-Car Rate: ₹8.61 Lakh
-Car EMI Details: EMIs from ₹16,388/month
-----------------------------------------------
-Car 9 data:
 Car Name: 2012 Maruti Wagon R 1.0 VXI
 Car Kilometers: 30,121 KM
 Car Transmission: MANUAL
@@ -204,29 +187,45 @@ Car Extra Highlight: TOP MODEL
 Car Rate: ₹2.07 Lakh
 Car EMI Details: EMIs from ₹6,875/month
 ----------------------------------------------
-Car 10 data:
-Car Name: 2010 Maruti Wagon R 1.0 VXI
-Car Kilometers: 84,625 KM
-Car Transmission: MANUAL
-Car Extra Highlight: TOP MODEL
-Car Rate: ₹1.42 Lakh
-Car EMI Details: EMIs from ₹12,617/month
-----------------------------------------------
-Car 11 data:
-Car Name: 2021 Maruti Baleno DELTA PETROL 1.2
-Car Kilometers: 12,577 KM
+Car 8 data:
+Car Name: 2022 Maruti Celerio VXI CNG
+Car Kilometers: 6,790 KM
 Car Transmission: MANUAL
 Car Extra Highlight: REGULARLY SERVICED
-Car Rate: ₹7.21 Lakh
-Car EMI Details: EMIs from ₹14,096/month
+Car Rate: ₹6.20 Lakh
+Car EMI Details: EMIs from ₹12,121/month
+----------------------------------------------
+Car 9 data:
+Car Name: 2012 Maruti Swift Dzire VXI
+Car Kilometers: 22,466 KM
+Car Transmission: MANUAL
+Car Extra Highlight: REGULARLY SERVICED
+Car Rate: ₹2.91 Lakh
+Car EMI Details: EMIs from ₹9,665/month
+----------------------------------------------
+Car 10 data:
+Car Name: 2016 Maruti Baleno ZETA PETROL 1.2
+Car Kilometers: 96,466 KM
+Car Transmission: MANUAL
+Car Extra Highlight: ALLOY WHEELS
+Car Rate: ₹4.59 Lakh
+Car EMI Details: EMIs from ₹8,974/month
+----------------------------------------------
+Car 11 data:
+Car Name: 2022 Maruti Vitara Brezza VXI AT SHVS
+Car Kilometers: 1,402 KM
+Car Transmission: AUTOMATIC
+Car Extra Highlight: STANDARD SAFETY FEATURES
+Car Rate: ₹10.64 Lakh
+Car EMI Details: EMIs from ₹20,252/month
 ----------------------------------------------
 Car 12 data:
-Car Name: 2018 Maruti Celerio VXI
-Car Kilometers: 52,238 KM
-Car Transmission: MANUAL
-Car Extra Highlight: 100% TYRE LIFE REMAINING
-Car Rate: ₹3.98 Lakh
-Car EMI Details: EMIs from ₹7,781/month
+Car Name: 2018 Maruti Dzire VXI AMT
+Car Kilometers: 45,657 KM
+Car Transmission: AUTOMATIC
+Car Extra Highlight: REGULARLY SERVICED
+Car Rate: ₹5.24 Lakh
+Car EMI Details: EMIs from ₹10,244/month
 ----------------------------------------------
 Car 13 data:
 Car Name: 2017 Maruti Dzire LXI
@@ -237,46 +236,14 @@ Car Rate: ₹5.13 Lakh
 Car EMI Details: EMIs from ₹10,029/month
 ----------------------------------------------
 Car 14 data:
-Car Name: 2013 Maruti Wagon R 1.0 VXI
-Car Kilometers: 48,692 KM
+Car Name: 2017 Maruti Swift ZXI
+Car Kilometers: 63,367 KM
 Car Transmission: MANUAL
 Car Extra Highlight: TOP MODEL
-Car Rate: ₹2.79 Lakh
-Car EMI Details: EMIs from ₹7,347/month
+Car Rate: ₹5.43 Lakh
+Car EMI Details: EMIs from ₹10,616/month
 ----------------------------------------------
 Car 15 data:
-Car Name: 2018 Maruti Dzire VXI AMT
-Car Kilometers: 45,657 KM
-Car Transmission: AUTOMATIC
-Car Extra Highlight: REGULARLY SERVICED
-Car Rate: ₹5.24 Lakh
-Car EMI Details: EMIs from ₹10,244/month
-----------------------------------------------
-Car 16 data:
-Car Name: 2016 Maruti Baleno ZETA PETROL 1.2
-Car Kilometers: 96,466 KM
-Car Transmission: MANUAL
-Car Extra Highlight: ALLOY WHEELS
-Car Rate: ₹4.59 Lakh
-Car EMI Details: EMIs from ₹8,974/month
-----------------------------------------------
-Car 17 data:
-Car Name: 2010 Maruti Wagon R 1.0 VXI
-Car Kilometers: 61,569 KM
-Car Transmission: MANUAL
-Car Extra Highlight: TOP MODEL
-Car Rate: ₹1.60 Lakh
-Car EMI Details: EMIs from ₹14,216/month
-----------------------------------------------
-Car 18 data:
-Car Name: 2018 Maruti Baleno ALPHA DIESEL 1.3
-Car Kilometers: 62,411 KM
-Car Transmission: MANUAL
-Car Extra Highlight: TOP MODEL
-Car Rate: ₹5.15 Lakh
-Car EMI Details: EMIs from ₹13,562/month
-----------------------------------------------
-Car 19 data:
 Car Name: 2022 Maruti Swift ZXI PLUS
 Car Kilometers: 24,626 KM
 Car Transmission: MANUAL
@@ -284,16 +251,48 @@ Car Extra Highlight: TOP MODEL
 Car Rate: ₹8.01 Lakh
 Car EMI Details: EMIs from ₹15,246/month
 ----------------------------------------------
-Car 20 data:
-Car Name: 2019 Maruti New Wagon-R VXI 1.2 AMT
-Car Kilometers: 12,716 KM
-Car Transmission: AUTOMATIC
+Car 16 data:
+Car Name: 2010 Maruti Wagon R 1.0 VXI
+Car Kilometers: 84,625 KM
+Car Transmission: MANUAL
+Car Extra Highlight: TOP MODEL
+Car Rate: ₹1.42 Lakh
+Car EMI Details: EMIs from ₹12,617/month
+----------------------------------------------
+Car 17 data:
+Car Name: 2022 Maruti Baleno ZETA PETROL 1.2
+Car Kilometers: 15,515 KM
+Car Transmission: MANUAL
+Car Extra Highlight: ALLOY WHEELS
+Car Rate: ₹8.61 Lakh
+Car EMI Details: EMIs from ₹16,388/month
+----------------------------------------------
+Car 18 data:
+Car Name: 2022 Maruti S PRESSO VXI (O) CNG
+Car Kilometers: 21,240 KM
+Car Transmission: MANUAL
 Car Extra Highlight: REGULARLY SERVICED
-Car Rate: ₹5.69 Lakh
-Car EMI Details: EMIs from ₹11,124/month
+Car Rate: ₹4.75 Lakh
+Car EMI Details: EMIs from ₹9,286/month
+----------------------------------------------
+Car 19 data:
+Car Name: 2019 Maruti Baleno ZETA PETROL 1.2
+Car Kilometers: 30,890 KM
+Car Transmission: MANUAL
+Car Extra Highlight: ALLOY WHEELS
+Car Rate: ₹5.89 Lakh
+Car EMI Details: EMIs from ₹11,515/month
+----------------------------------------------
+Car 20 data:
+Car Name: 2013 Maruti Wagon R 1.0 VXI
+Car Kilometers: 48,692 KM
+Car Transmission: MANUAL
+Car Extra Highlight: TOP MODEL
+Car Rate: ₹2.79 Lakh
+Car EMI Details: EMIs from ₹7,347/month
 ----------------------------------------------
 ]]></system-out>
-    <system-err><![CDATA[Apr 15, 2024 12:18:09 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Apr 15, 2024 12:19:33 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 123, returning the closest version; found: 122; Please update to a Selenium version that supports CDP version 123
 ]]></system-err>
   </testcase>
