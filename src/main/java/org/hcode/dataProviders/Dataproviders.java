@@ -28,8 +28,6 @@ public class Dataproviders {
 		Workbook workbook = new XSSFWorkbook(inputStream);
 		Sheet sheet = workbook.getSheet(sheetName);
 
-		System.out.println(sheetName);
-
 		//        Iterating each row
 		int rowCount = sheet.getLastRowNum() - sheet.getFirstRowNum();
 		Object[][] data = new Object[rowCount][1];

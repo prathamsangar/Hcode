@@ -13,6 +13,13 @@
           <include name="findName"/>
         </methods>
       </class> <!-- org.hcode.tests.WebTablesTests -->
+      <class name="org.hcode.tests.CommonWebElementsTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="commonTest"/>
+        </methods>
+      </class> <!-- org.hcode.tests.CommonWebElementsTests -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

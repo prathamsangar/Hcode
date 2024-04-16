@@ -17,8 +17,6 @@ public class CommonWebElementsTests extends BaseTest {
 		String[] b = cmm.getPopModels();
 		boolean found = false;
 
-
-
 		for (String text : a) {
 			if (text.equals("Toyota")) {
 				found = true;
@@ -27,19 +25,14 @@ public class CommonWebElementsTests extends BaseTest {
 		}
 
 		Assert.assertTrue(found, "Toyota not found in the array");
-
-
 		for (String textOfModels : b) {
 			System.out.println(textOfModels);
 		}
-
 	}
 	
 	@Test
 	public void clickHatchBack() {
-		
-		new CommonWebElements().hoverOnMenu().clickElement("Hatchback");
-		
+		new CommonWebElements().hoverOnMenu().clickElement("Hatchback");	
 	}
 
 }

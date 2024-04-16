@@ -9,10 +9,10 @@ import org.openqa.selenium.interactions.Actions;
 
 public class CommonWebElements {
 
-	private final By buyCarDropdown = By.xpath("//div/div[2]/ul/li[1]/a");
-	private final By popular_makes = By.xpath("//li/div/div/ul[1]");
-	private final By popular_models = By.xpath("//li/div/div[2]/ul");
-	private final By allLists = By.xpath("//div/ul/li/div/div/ul");
+	private final By buyCarDropdown = By.xpath("//div/div[2]/ul/li[4]/a");
+	private final By popular_makes = By.xpath("//li/div/div[2]/div/ul[1]");
+	private final By popular_models = By.xpath("//li/div/div[3]/div/ul");
+	private final By allLists = By.xpath("//ul/li[4]/div");
 
 
 	public CommonWebElements hoverOnMenu() {
