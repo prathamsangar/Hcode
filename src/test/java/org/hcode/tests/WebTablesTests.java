@@ -24,6 +24,10 @@ public class WebTablesTests {
 
 	@Test
 	public void findName() {
+		
+//		Printing in console
+		System.out.println(new WebTables().findCarouselItems());
+//      Assertions to verify text is present
 		Assert.assertTrue(new WebTables().findCarouselItems().contains("Shri Prashant Kumar"), "Shri Prashant Kumar is not present in the list.");
 		Assert.assertTrue(new WebTables().findCarouselItems().contains("Shri Nitin Joshi"), "Shri Nitin Joshi is not present in the list.");
 		Assert.assertTrue(new WebTables().findCarouselItems().contains("Shri S S Chauhan, IRSME"), "Shri S S Chauhan is not present in the list.");

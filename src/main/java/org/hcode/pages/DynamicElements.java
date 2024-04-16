@@ -25,7 +25,7 @@ public class DynamicElements {
 		    List<WebElement> carsElemento = DriverManager.getDriver().findElements(carElements);
 		    
 		    // Arrays to store the text values
-		    String[][] carData = new String[carsElemento.size()][6]; // 6 columns for each attribute
+		    String[][] carData = new String[carsElemento.size()][6]; 
 		    
 		    for (int i = 1; i <= carsElemento.size(); i++) {
 		        WebElement carElement = DriverManager.getDriver().findElement(By.xpath("(//div/div[5]/div/div/a)[" + i + "]"));
@@ -38,6 +38,7 @@ public class DynamicElements {
 		        WebElement carEMIDetailsElemen = carElement.findElement(carEMIDetailsElement);
 
 		        // Get text from elements and store in arrays
+		        
 		        carData[i - 1][0] = carNameElemen.getText();
 		        carData[i - 1][1] = carKilometersElemen.getText();
 		        carData[i - 1][2] = carTransmissionElemen.getText();

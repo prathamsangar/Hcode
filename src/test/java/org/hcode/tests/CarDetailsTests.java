@@ -9,7 +9,7 @@ public class CarDetailsTests extends BaseTest {
 	
 	 @Test
 	    public void printCarDataTest() {
-	        // Call the GetCarImg method to retrieve carData
+	        
 		 DynamicElements carDataA = new DynamicElements();
 		 
 		 String[][] a = carDataA.GetCarImg();

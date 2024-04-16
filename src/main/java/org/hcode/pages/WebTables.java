@@ -16,11 +16,8 @@ public class WebTables {
 		List<WebElement> namesElementsList =  DriverManager.getDriver().findElements(officerNames);
 		
 		List<String> textList = new ArrayList<>();
-	
 		for (WebElement parentElement : namesElementsList) {
-            // Extract the text from the parent element and add it to the list
             String text = parentElement.getText();
-            System.out.println(text);
             textList.add(text);
         }
 		

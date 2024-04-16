@@ -7,23 +7,25 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Driver {
-	
+
 	private static WebDriver driver;
-	
-	
+
+
 	public static void initDriver(String url) throws IOException {
-		
-		if(driver==null) {
-		System.setProperty("webdriver.chrome.driver", FrameworkConstants.getChromedriverpath());
-		driver = new ChromeDriver();
-		DriverManager.setDriver(driver);
-		DriverManager.getDriver().manage().window().maximize();
-		DriverManager.getDriver().get(ReadPropertyFile.getValue(url));
-		
+
+		if(driver==null) {			
+			System.setProperty("webdriver.chrome.driver", FrameworkConstants.getChromedriverpath());
+			driver = new ChromeDriver();
+			DriverManager.setDriver(driver);
+			DriverManager.getDriver().manage().window().maximize();
+
+			//		Get URL from config file as per the test cases
+			DriverManager.getDriver().get(ReadPropertyFile.getValue(url));
+
 		}
-	
+
 	}
-	
+
 	public static void quitDriver() {
 		if(DriverManager.getDriver()!=null) {
 			DriverManager.getDriver().quit();
